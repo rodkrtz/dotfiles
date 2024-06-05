@@ -9,7 +9,9 @@ sudo pacman -S --noconfirm --needed \
     networkmanager \
     git \
     fish \
-    vim
+    vim \
+    ttf-jetbrains-mono-nerd \
+    starfish
 
 # Habilite e inicie o serviço GDM
 sudo systemctl enable gdm.service
