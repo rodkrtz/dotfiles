@@ -11,7 +11,8 @@ sudo pacman -S --noconfirm --needed \
     fish \
     vim \
     ttf-jetbrains-mono-nerd \
-    starfish
+    starfish \
+    kitty
 
 # Habilite e inicie o serviço GDM
 sudo systemctl enable gdm.service
